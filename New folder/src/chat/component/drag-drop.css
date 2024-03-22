@@ -1,0 +1,31 @@
+.dropzone {
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .dropzone:hover {
+    border-color: #333;
+  }
+  
+  .dropzone h3 {
+    margin-bottom: 10px;
+  }
+  
+  .file {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 5px;
+  }
+  
+  .file:hover {
+    background-color: #e9e9e9;
+  }
+  

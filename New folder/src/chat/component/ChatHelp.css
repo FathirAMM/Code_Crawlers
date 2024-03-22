@@ -1,0 +1,34 @@
+.tell{
+    box-sizing: border-box;
+    padding: 0.7rem 2.5rem;
+    color: gray;
+    font-size: 27px;
+    border: 1px solid white;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    font-weight: 500;
+    display: flex;
+    gap: 1.1rem;
+}
+.tells{
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+}
+.tellcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tell p{
+    font-size: medium;
+    font-weight: 200;
+    color: lightslategray;
+}
+.caption-rag{
+    font-size: 18px;
+}
