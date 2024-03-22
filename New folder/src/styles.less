@@ -1,0 +1,31 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: puff-in-center .3s cubic-bezier(.47,0,.745,.715) both;
+    background: var(--gray-50);
+    border-radius: 8px;
+    min-height: 400px;
+    padding: 32px;
+    transition: background .1s ease-in-out;
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #3CC8B4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: #3CC8B4;
+      color: #fff;
+    }
+  }
+  
